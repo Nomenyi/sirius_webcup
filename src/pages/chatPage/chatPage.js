@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import { Configuration, OpenAIApi } from 'openai';
 
 import FormSection from './Form';
 import AnswerSection from './Answer';
-import { useState } from 'react';
+import SpeechToText from './Speech';
 
 const ChatPage = () => {
 
@@ -61,6 +62,7 @@ const ChatPage = () => {
                 </p>
             </div>
 
+            <SpeechToText/>
             <FormSection generateResponse={generateResponse} />
             <AnswerSection storedValues={storedValues} />
         </div>
