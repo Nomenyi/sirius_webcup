@@ -1,0 +1,11 @@
+/* base style */
+@import 'base/_globalStyle.css';
+@import 'base/_variables.css';
+@import 'base/_animation.css';
+
+/*pages style*/
+@import 'pages/LoaderPage/_loader.css';
+
+
+/* Components */
+

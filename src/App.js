@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, Suspense, StrictMode, lazy } from 'react';
+
+// Route librairies import
+import { Routes, Route } from 'react-router-dom';
+
+
+// --------Page import--------
+//loader
+import Loader from './pages/loaderPage/loaderPage';
+
+/* page & components with lazy load */
+const NotFoundPage = lazy(() => import('./pages/notFoundPage/notFoundPage'))
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StrictMode>
+      <Suspense fallback={<Loader/>}>
+        <Routes>
+          {/* Authentification pages route */}
+          <Route path='/' element={<Loader />}/>
+
+          {/* supplements pages route */}
+          <Route path='loader' element={<Loader />} />
+          <Route path='*' element={<NotFoundPage />} />
+
+          </Routes>
+        </Suspense>
+    </StrictMode>
   );
 }
 

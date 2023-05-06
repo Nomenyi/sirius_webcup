@@ -1,0 +1,93 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    /* --------principal color --------*/
+    --PrimaryColor: #43B3FF;
+    --DisabledColor: #7f7f7f;
+    --whiteColor: #1a1a51;
+    --fillInput: #292962;
+
+    /* --------Transparent color-------- */
+    --whiteColorTransparent: rgba(0, 0, 0, 0.5);
+    --darkColorTransparent: rgba(255, 255, 255, 0.1);
+    --greyColor: #494949;
+    
+    /* --------Font color-------- */
+    --DarkFontColor: #fff;
+    --LightFontColor: #e1e1e1;
+    
+    /* --------Success color-------- */
+    --succescolor: #27AA07;
+    --darksuccescolor: #0f6f00;
+
+    /* --------Warning color-------- */
+    --warningcolor: #ff9700;
+    --darkwarningcolor: #db7d00;
+
+    /* --------Danger color-------- */
+    --dangercolor: #df0b0b;
+    --darkdangercolor: #ff2600;
+
+    /* --------Background Color-------- */
+    --BackgroundColor: #181741;
+
+    /* linear color */
+    --linearColor1: linear-gradient(to right, #43B3FF 0%, #004487 100%);
+    --linearColor2: linear-gradient(to right, #095a83 10%, #434C97 100%);
+
+    /* --------supplement color-------- */
+    --supplementColor1: #FFB000;
+    --supplementColor2: #D30074;
+    --supplementColor2: #af00db;
+    
+    /* --------Font family-------- */
+    --DefaultFont: Poppins;
+}
+
+
+.lightmode{
+    /* --------principal color --------*/
+    --PrimaryColor: #43B3FF;
+    --DisabledColor: #7f7f7f;
+    --whiteColor: #ffffff;
+    --fillInput: #fff;
+    --greyColor: #f4f4f4;
+    
+    /* --------Transparent color-------- */
+    --whiteColorTransparent: rgba(255, 255, 255, 0.7);
+    --darkColorTransparent: rgba(0, 0, 0, 0.2);
+
+    /* --------Font color-------- */
+    --DarkFontColor: #01003A;
+    --LightFontColor: #24245a;
+
+    /* --------Success color-------- */
+    --succescolor: #27AA07;
+    --darksuccescolor: #0f6f00;
+
+    /* --------Warning color-------- */
+    --warningcolor: #ff9700;
+    --darkwarningcolor: #db7d00;
+
+    /* --------Danger color-------- */
+    --dangercolor: #df0b0b;
+    --darkdangercolor: #ff2600;
+
+    /* --------Background Color-------- */
+    --BackgroundColor: #F5FBFF;
+
+    /* --------linear color-------- */
+    --linearColor1: linear-gradient(to right, #43B3FF 0%, #004487 100%);
+    --linearColor2: linear-gradient(to right, #095a83 10%, #434C97 100%);
+
+    /* --------supplement color--------*/
+    --color1: #FFB000;
+    --color2: #D30074;
+    --color3: #af00db;
+
+    /* --------Font family--------    */
+    --DefaultFont: Poppins;
+}
+
+
