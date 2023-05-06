@@ -5,6 +5,7 @@
 
 /*pages style*/
 @import 'pages/LoaderPage/_loader.css';
+@import 'pages/NotFoundPage/_NotFoundPageStyle.css';
 
 
 /* Components */
