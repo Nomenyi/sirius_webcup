@@ -10,16 +10,21 @@ import Loader from './pages/loaderPage/loaderPage';
 
 /* page & components with lazy load */
 const NotFoundPage = lazy(() => import('./pages/notFoundPage/notFoundPage'))
-
-
+const MainPage = lazy(() => import('./pages/mainPage/mainPage'))
+const OrinixPage = lazy(() => import('./pages/orinixPage/onirixPage'))
+const ChatPage = lazy(() => import('./pages/orinixPage/onirixPage'))
 
 function App() {
   return (
     <StrictMode>
       <Suspense fallback={<Loader/>}>
         <Routes>
-          {/* Authentification pages route */}
-          <Route path='/' element={<Loader />}/>
+          {/* main pages route */}
+          <Route path='/' element={<MainPage />}/>
+
+          <Route path='/MainPage' element={<MainPage />}/>
+          <Route path='/orinix' element={<OrinixPage />}/>
+          <Route path='/orinixbot' element={<ChatPage />}/>
 
           {/* supplements pages route */}
           <Route path='loader' element={<Loader />} />
