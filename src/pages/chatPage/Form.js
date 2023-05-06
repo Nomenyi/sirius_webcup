@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SpeechToText from './Speech';
 
 const FormSection = ({ generateResponse }) => {
 
@@ -13,6 +14,7 @@ const FormSection = ({ generateResponse }) => {
                 value={newQuestion}
                 onChange={(e) => setNewQuestion(e.target.value)}
             ></textarea>
+            <SpeechToText/>
             <button 
                 className="btn"
                 onClick={() => generateResponse(newQuestion, setNewQuestion)}>

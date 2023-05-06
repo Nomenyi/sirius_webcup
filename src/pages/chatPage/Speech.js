@@ -5,12 +5,14 @@ const SpeechToText = () => {
   const {
     transcript,
     listening,
-    resetTranscript,
+    // resetTranscript,
     browserSupportsSpeechRecognition
   } = useSpeechRecognition();
 
   if (!browserSupportsSpeechRecognition) {
     return <span>Browser doesn't support speech recognition.</span>;
+  } else {
+    SpeechRecognition.startListening({ continuous: true })
   }
 
   return (
@@ -18,7 +20,7 @@ const SpeechToText = () => {
       <p>Microphone: {listening ? 'on' : 'off'}</p>
       <button onClick={SpeechRecognition.startListening}>Start</button>
       <button onClick={SpeechRecognition.stopListening}>Stop</button>
-      <button onClick={resetTranscript}>Reset</button>
+      {/* <button onClick={resetTranscript}>Reset</button> */}
       <p>{transcript}</p>
     </div>
   );
