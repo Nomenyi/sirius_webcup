@@ -1,0 +1,71 @@
+.NotFound_container{
+    font-family: var(--DefaultFont);
+    color: #fff;
+    height: 100vh;
+}
+
+.NotFound_content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.NotFound_content .NotFound_MiddleSection{
+    text-align: center;
+}
+
+.NotFound_content .NotFound_MiddleSection h1{
+    font-size: 23vw;  
+    margin-top: -50px; 
+}
+
+.NotFound_content .NotFound_MiddleSection p{
+    margin-top: -80px;
+    margin-bottom: 40px;
+}
+
+.NotFound_content .NotFound_MiddleSection .back_btn{
+    padding: 15px;
+    font-size: 13px;
+    transition: .3s ease;
+    margin-top: 300px;
+    background-color: #ED156D;
+    background: linear-gradient(to right, #ED156D, #941bd1);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    border-radius: 20px;
+    transform: scale(1);
+}
+
+.NotFound_content .NotFound_MiddleSection .back_btn:hover{
+    transform: scale(1.1);
+    padding: 15px 30px;
+}
+
+/* HEADER STYLE */
+.NotFound_Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NotFound_Header .Orinix_btn{
+    border-bottom: 1px solid #fff;
+    font-size: 13px;
+    transition: 0.3s ease;
+    padding: 7px 10px;
+}
+.NotFound_Header .Orinix_btn:hover{
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* FOOTER STYLE */
+.footer_text{
+    font-size: 12px;
+    opacity: 0.6;
+}

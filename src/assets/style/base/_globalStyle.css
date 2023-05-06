@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background-color: #444;
+  }
+
+body{
+    background-color: var(--BackgroundColor);
+}
+
+/*windown scroll style*/
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .2);
+    border-radius: 20px; 
+}
+
+*::-webkit-scrollbar-corner{
+    border-radius: 20px;
+}
+
+*::-webkit-scrollbar {
+    padding: 20px 0px;
+    background: var(--fillInput);
+    width: 6px;
+    border-radius: 20px;
+}
+*::-webkit-scrollbar:hover,
+*::-webkit-scrollbar:hover {
+    background: var(--fillInput);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* submit */
+  .submit-button{
+    padding: 15px 25px;
+    background-color: var(--PrimaryColor);
+    outline: none;
+    border: none;
+    color: var(--AllwhiteColor);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+  }
+
+  .submit-button:hover{
+    /* animation: 5s rainbow infinite; */
+    /* background: var(--linearColor1); */
+    box-shadow: 0px 2px 0px var(--darkColor);
+    transform: translateY(-2px);
+  }
+  
+.success-color{
+  background-color: var(--succescolor);
+}
+
+.danger-color{
+  background-color: var(--dangercolor);
+}
+
+.warning-color{
+  background-color: var(--warningcolor);
+}
