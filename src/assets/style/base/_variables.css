@@ -3,8 +3,8 @@
 
 :root{
     /* --------principal color --------*/
-    --PrimaryColor: #43B3FF;
-    --DisabledColor: #7f7f7f;
+    --PrimaryColor: #ED156D;
+    --DisabledColor: #080808;
     --whiteColor: #1a1a51;
     --fillInput: #292962;
 
@@ -30,7 +30,7 @@
     --darkdangercolor: #ff2600;
 
     /* --------Background Color-------- */
-    --BackgroundColor: #181741;
+    --BackgroundColor: #020211;
 
     /* linear color */
     --linearColor1: linear-gradient(to right, #43B3FF 0%, #004487 100%);
