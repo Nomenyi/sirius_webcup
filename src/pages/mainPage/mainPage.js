@@ -71,7 +71,7 @@ function mainPage() {
                 "Ne laissez pas vos rêves être des rêves, faites-en une réalité." <span>Walt Disney</span></h1>
               <p
                   data-aos="fade-up"
-                  data-aos-duration="2000">ienvenue à l'Institut International des Rêves ! Nous sommes spécialisés dans l'étude des rêves et nous croyons en leur pouvoir et leur signification. Notre équipe d'experts travaille pour décoder les messages cachés derrière vos rêves.<br/>Nous sommes ravis de présenter notre nouvelle IA,"Orinix", un outil révolutionnaire qui prédit les rêves en utilisant l'intelligence artificielle. Rejoignez-nous pour explorer votre monde onirique et découvrir les trésors qu'il renferme. Avec l'Institut International des Rêves et Orinix, osez rêver et transformer votre vie grâce à la sagesse des rêves.</p>
+                  data-aos-duration="2000">Bienvenue à l'Institut International des Rêves ! Nous sommes spécialisés dans l'étude des rêves et nous croyons en leur pouvoir et leur signification. Notre équipe d'experts travaille pour décoder les messages cachés derrière vos rêves.<br/>Nous sommes ravis de présenter notre nouvelle IA,"Orinix", un outil révolutionnaire qui prédit les rêves en utilisant l'intelligence artificielle. Rejoignez-nous pour explorer votre monde onirique et découvrir les trésors qu'il renferme. Avec l'Institut International des Rêves et Orinix, osez rêver et transformer votre vie grâce à la sagesse des rêves.</p>
                   <div className='banner-btn' data-aos="fade-up"
                   data-aos-duration="2000">
                     <Link to={'/onirix/bot'} className='try_onirix_btn'>Essayer maintenant</Link>
