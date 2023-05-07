@@ -1,9 +1,37 @@
-import { useState } from "react";
-import SpeechToText from './Speech';
+import { useEffect, useState } from "react";
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 const FormSection = ({ generateResponse }) => {
 
     const [newQuestion, setNewQuestion] = useState('');
+    const [isStarted, setIsStarted] = useState(false);
+
+    const {
+        transcript,
+        listening,
+        browserSupportsSpeechRecognition
+    } = useSpeechRecognition();
+
+    useEffect(() => {
+        if (transcript) {
+            setNewQuestion(transcript);
+        }
+    }, [transcript]);
+
+    if (!browserSupportsSpeechRecognition) {
+        return <span>Browser doesn't support speech recognition.</span>;
+    }
+
+    const handleStart = () => {
+        SpeechRecognition.startListening({ continuous: true })
+        setIsStarted(true);
+    }
+
+    const handleStop = () => {
+        SpeechRecognition.stopListening();
+        SpeechRecognition.abortListening();
+        setIsStarted(false);
+    }
 
     return (
         <div className="form-section">
@@ -14,7 +42,16 @@ const FormSection = ({ generateResponse }) => {
                 value={newQuestion}
                 onChange={(e) => setNewQuestion(e.target.value)}
             ></textarea>
-            <SpeechToText/>
+
+            <p>Microphone: {listening ? 'on' : 'off'}</p>
+
+            {!isStarted && (
+                <button onClick={handleStart}>Start</button>
+            )}
+            {isStarted && (
+                <button onClick={handleStop}>Stop</button>
+            )}
+
             <button 
                 className="btn"
                 onClick={() => generateResponse(newQuestion, setNewQuestion)}>

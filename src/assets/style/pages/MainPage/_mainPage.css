@@ -379,7 +379,6 @@
     z-index: 3;
     border-radius: 10px;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
 }
 
 .banner_item .left, .banner_item .right{
