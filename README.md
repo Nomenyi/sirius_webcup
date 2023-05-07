@@ -35,6 +35,6 @@ npm start
 - Ouvrir un navigateur et entrer [http://localhost:3000](http://localhost:3000) pour le voir.
 
 # EXTRAS
-On a utilisé le fameux API CPT-3 de l'OpenAi pour simuler l'interaction avec l'utilisateur un chatbot qui est basé sur GPT-3.
+On a utilisé le fameux API de l'[OpenAi](https://openai.com/) pour simuler l'interaction avec l'utilisateur un chatbot qui est basé sur GPT-3.
 
 Le nombre de requête envoyé est limité, donc il n'y aura plus de réponse automatique dans le chat si le quota journalier est epuisé.
