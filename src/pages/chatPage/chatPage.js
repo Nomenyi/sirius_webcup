@@ -50,6 +50,40 @@ const ChatPage = () => {
 
     return (
         <div className='chat_conatiner'>
+        <div className='mainpage_Navbar'>
+        <nav id="navbar" className="navbar">
+            <div className="nav-wrapper">
+                <div className="logo">
+                    <img src={logo} alt='IIR Logo' width={'190px'}/>
+                </div>
+
+                <ul id="menu">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">à propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+
+                <div>
+                    <Link to={'/onirix'} className='Onirix-Btn'>Retour Onirix</Link>
+                </div>
+
+                
+                
+            </div>
+        </nav>
+
+
+            {/* <div className="overlay-menu">
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div> */}
+    </div>
             <div className="header-section">
                 <h1>Orinix AI 🤖</h1>
                 <p>
