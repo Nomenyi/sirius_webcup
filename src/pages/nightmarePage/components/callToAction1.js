@@ -10,7 +10,7 @@ function callToAction1() {
         <div className='about_content'>
             <div className='leftside'>
                 <h1>La meilleure solution pour avoir une bonne sommeil</h1>
-                <small>Lorem eu adipisicing velit consectetur magna ullamco cupidatat aute deserunt nostrud ut. Elit anim mollit ipsum sint ad anim ad deserunt veniam Lorem. Esse elit ipsum consectetur voluptate anim adipisicing laboris cillum reprehenderit commodo. Consequat adipisicing duis consequat duis aute consectetur eu Lorem duis.</small>
+                <small>Fatigué de passer des nuits blanches? Laissez-nous vous aider à retrouver un sommeil réparateur. Notre équipe d'experts en sommeil vous guidera à travers une variété de techniques éprouvées pour vous aider à vous endormir rapidement et à rester endormi toute la nuit. Réservez dès maintenant votre consultation pour retrouver un sommeil paisible.</small>
                 {/* <Link to={"/authentification"} className={"about-btn"} type={"submit"}>Se connecter à mon compte</Link> */}
             </div>
 

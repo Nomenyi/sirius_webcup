@@ -55,7 +55,7 @@ const FormSection = ({ generateResponse }) => {
             <button 
                 className="btn"
                 onClick={() => generateResponse(newQuestion, setNewQuestion)}>
-                Genere une reponse🤖
+                Generer une reponse🤖
             </button>
         </div>
     )
