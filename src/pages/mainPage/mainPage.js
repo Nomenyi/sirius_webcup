@@ -14,8 +14,34 @@ import Nightmare_popup from '../../components/nightmare_popup'
 
 // Asset import
 import banne_Illustration from '../../assets/image/gif/Meteor.gif'
+import videoSource from '../../assets/video/cosmonote.mp4';
+
 
 function mainPage() {
+
+  const videoStyle = {
+    minWidth: '100%',
+    minHeight: '100%',
+    width: 'auto',
+    height: 'auto',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    backgroundAttachment: 'fixed',
+    transform: 'translate(-50%, -50%)',
+    opacity: 0.5,
+    filter: 'blur(0.5)',
+  };
+
+  const containerStyle = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    zIndex: -1,
+    overflow: 'hidden',
+  };
   
   effect(()=>{
     Aos.init({duration: 2000})
@@ -62,8 +88,28 @@ function mainPage() {
           
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1}>
-          <h1>TEST2</h1>
+        <ParallaxLayer className='service_item' offset={1}>
+        <div className='service_content'>
+          <h1>Les rêves sont le moteur de l'imagination, la clé de l'avenir.</h1>
+          <small>Ce qu'on vous offres pour comprendre vos rêves</small>
+
+          <div clasName='CardGroup'>
+          <div className='card'>
+            <h5>lorem ipsum</h5>
+            <p>Les rêves sont les fenêtres de notre esprit, des voyages nocturnes à travers des paysages imaginaires et des scénarios inexplorés. Ils transcendent les limites de la réalité et nous transportent dans un royaume où tout devient possible.</p>   
+          </div>
+          <div className='card'>
+            <h5>lorem ipsum</h5>
+            <p>Les rêves sont les fenêtres de notre esprit, des voyages nocturnes à travers des paysages imaginaires et des scénarios inexplorés. Ils transcendent les limites de la réalité et nous transportent dans un royaume où tout devient possible.</p>   
+          </div>
+          </div>
+
+          <div style={containerStyle}>
+            <video style={videoStyle} autoPlay loop muted>
+              <source src={videoSource} type="video/mp4" />
+            </video>
+          </div>
+          </div>
         </ParallaxLayer> 
       </Parallax>
 

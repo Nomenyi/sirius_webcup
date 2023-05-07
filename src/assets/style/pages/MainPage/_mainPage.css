@@ -360,6 +360,18 @@
     margin: 20px auto;   
 }
 
+.CardGroup{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.CardGroup .card{
+    width: 32%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
 .banner{
     background-color: var(--fillInput);
     padding: 10px 40px;
@@ -420,4 +432,23 @@
     cursor: pointer;
     transition: 0.4s ease;
 }
+
+.service_item{
+    padding: 40px 140px;
+    text-align: center;
+    
+}
+.service_content{
+    max-width: 1200px;
+    margin: 0px auto;
+    z-index: 5;
+}
+
+
+.service_item h1{
+    font-size: 400%;
+    margin-top: 70px;
+}
+
+
 

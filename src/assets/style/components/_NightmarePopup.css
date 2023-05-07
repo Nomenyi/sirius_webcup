@@ -73,6 +73,14 @@
         display: none;
     }
 
+    .banner_item{
+        margin-bottom: 4000px;
+    }
+
+    .banner_item p{
+        display: none;
+    }
+
     .banner{
         flex-direction: column-reverse;
         margin: 20px;
@@ -85,6 +93,10 @@
 
     .banner_item .right{
         height: 300px;
+    }
+
+    .service_content h1{
+        font-size: 120%;
     }
 }
 

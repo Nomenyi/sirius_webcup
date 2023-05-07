@@ -14,7 +14,7 @@ function nightmare_popup() {
         </div>
         <div className='bottom'>
         <small>Surmontez vos cauchemars, embrassez votre courage. Transformez l'obscurité en croissance personnelle et devenez le héros de votre propre histoire.</small>
-        <Link to={'/onirix/bot'} className='nightmare_shorcut'>En savoir plus...</Link>
+        <Link to={'/nigntmare'} className='nightmare_shorcut'>En savoir plus...</Link>
         </div>
     </div>
   )
