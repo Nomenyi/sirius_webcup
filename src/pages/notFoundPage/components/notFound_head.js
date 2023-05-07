@@ -5,7 +5,7 @@ function notFound_head() {
   return (
     <div className='NotFound_Header'>
         <p>Logo</p>
-        <Link to={'/'} className='Orinix_btn'>Testez Orinix</Link>
+        <Link to={'/onirix'} className='Orinix_btn'>Testez Orinix</Link>
     </div>
   )
 }

@@ -8,6 +8,7 @@ import videoSource from '../../assets/video/pexels-pachon-in-motion-15196839-256
 import NotFound_head from './components/notFound_head';
 import NotFound_foot from './components/notFound_foot';
 
+
 function notFoundPage() {
   const videoStyle = {
     minWidth: '100%',
