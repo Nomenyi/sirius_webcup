@@ -31,12 +31,61 @@
 
 .nightmare_shorcut{
     font-size: 10px;
-    margin-left: 15px;
+    margin-top: 15px;
+    width: 110px;
+    text-align: center;
     border-radius: 60px;
     background-color: rgb(0, 107, 221);
     color: #fff;
     padding: 3px 8px;
     transition: .7s ease;
+}
+
+@media screen and (max-width: 800px){
+    .nightmare_popup_container{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 90%;
+
+    }   
+
+    .nightmare_popup_container .bottom{
+        padding: 20px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nightmare_popup_container .top{
+        background-position: 0px 00px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .nightmare_popup_container .bottom{
+        width: 100%;
+    }
+    .nightmare_popup_container .top{
+        width: 0%;
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .banner_item .left, .banner_item .right{
+        width: 100%;
+    } 
+
+    .banner_item .right{
+        height: 300px;
+    }
 }
 
 .nightmare_shorcut:hover{

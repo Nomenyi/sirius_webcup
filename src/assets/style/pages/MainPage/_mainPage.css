@@ -17,6 +17,7 @@
 
   .reponse_menu.close{
       display: none;
+      z-index: 20;
   }
   
   .nav-wrapper {
@@ -159,6 +160,7 @@
         left: 0;
         right: 0;
         height: 95%;
+        z-index: 20;
         border-radius: 8px;
         background-color: var(--fillInput);
         /* margin: 20px; */
@@ -362,6 +364,8 @@
     background-color: var(--fillInput);
     padding: 10px 40px;
     display: flex;
+    z-index: 3;
+    border-radius: 10px;
     justify-content: space-between;
     /* flex-wrap: wrap; */
 }
@@ -416,3 +420,4 @@
     cursor: pointer;
     transition: 0.4s ease;
 }
+
