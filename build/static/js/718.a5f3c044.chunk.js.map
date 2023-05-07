@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/718.a5f3c044.chunk.js","mappings":"+IAQA,UANA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,YAET,C","sources":["pages/mainPage/mainPage.js"],"sourcesContent":["import React from 'react'\r\n\r\nfunction mainPage() {\r\n  return (\r\n    <div>mainPage</div>\r\n  )\r\n}\r\n\r\nexport default mainPage"],"names":["_jsx","children"],"sourceRoot":""}

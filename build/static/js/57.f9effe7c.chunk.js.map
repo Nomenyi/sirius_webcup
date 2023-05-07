@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/57.f9effe7c.chunk.js","mappings":"8IAQA,UANA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,cAET,C","sources":["pages/onirixPage/onirixPage.js"],"sourcesContent":["import React from 'react'\r\n\r\nfunction onirixPage() {\r\n  return (\r\n    <div>onirixPage</div>\r\n  )\r\n}\r\n\r\nexport default onirixPage"],"names":["_jsx","children"],"sourceRoot":""}
