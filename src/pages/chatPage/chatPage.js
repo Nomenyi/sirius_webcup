@@ -3,6 +3,7 @@ import { Configuration, OpenAIApi } from 'openai';
 
 import FormSection from './Form';
 import AnswerSection from './Answer';
+import logo from '../../assets/image/logo/IIR_Logo/IIR_Logo_Large_transparent.png';
 
 const ChatPage = () => {
 
@@ -53,20 +54,21 @@ const ChatPage = () => {
         <div className='mainpage_Navbar'>
         <nav id="navbar" className="navbar">
             <div className="nav-wrapper">
-                <div className="logo">
+                
+                {/* <div className="logo">
                     <img src={logo} alt='IIR Logo' width={'190px'}/>
-                </div>
+                </div> */}
 
                 <ul id="menu">
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="/">Accueil</a></li>
+                    {/* <li><a href="#services">Services</a></li>
                     <li><a href="#about">à propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li> */}
                     
                 </ul>
 
                 <div>
-                    <Link to={'/onirix'} className='Onirix-Btn'>Retour Onirix</Link>
+                    <a href='/' className='Onirix-Btn'>Retour Onirix</a>
                 </div>
 
                 
