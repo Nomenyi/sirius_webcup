@@ -4,14 +4,14 @@
 :root{
     /* --------principal color --------*/
     --PrimaryColor: #ED156D;
-    --DisabledColor: #080808;
+    --DisabledColor: #0f0f2e;
     --whiteColor: #0f0f2e;
     --fillInput: #08081a;
 
     /* --------Transparent color-------- */
     --whiteColorTransparent: rgba(0, 0, 0, 0.5);
     --darkColorTransparent: rgba(255, 255, 255, 0.1);
-    --greyColor: #494949;
+    --greyColor: #1a1a46;
     
     /* --------Font color-------- */
     --DarkFontColor: #fff;

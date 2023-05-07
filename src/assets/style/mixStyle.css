@@ -11,4 +11,5 @@
 @import 'pages/OnirixPage/_onirixPage.css';
 
 /* Components */
+@import 'components/_NightmarePopup.css';
 

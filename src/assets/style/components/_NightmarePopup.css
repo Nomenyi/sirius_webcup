@@ -1,0 +1,44 @@
+.nightmare_popup_container{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--greyColor);
+    /* right: 0; */
+    width: 40%;
+    display: flex;
+    margin: 20px;
+    z-index: 20;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.nightmare_popup_container .top{
+    background: url('../../../assets/image/gif/nightmare.gif') 0px 370px;
+    background-size: cover;
+    /* height: 100%; */
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.nightmare_popup_container .bottom{
+    padding: 20px;
+    width: 50%;
+}
+
+.nightmare_popup_container small{
+    font-size: 10px;
+    opacity: 0.4;
+}
+
+.nightmare_shorcut{
+    font-size: 10px;
+    margin-left: 15px;
+    border-radius: 60px;
+    background-color: rgb(0, 107, 221);
+    color: #fff;
+    padding: 3px 8px;
+    transition: .7s ease;
+}
+
+.nightmare_shorcut:hover{
+    background-color: var(--PrimaryColor);
+}
