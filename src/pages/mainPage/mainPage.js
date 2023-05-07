@@ -91,16 +91,19 @@ function mainPage() {
         <ParallaxLayer className='service_item' offset={1}>
         <div className='service_content'>
           <h1>Les rêves sont le moteur de l'imagination, la clé de l'avenir.</h1>
-          <small>Ce qu'on vous offres pour comprendre vos rêves</small>
+          <small>Onirix est là pour vous aider à décoder vos rêves et prédire votre avenir. </small>
 
           <div clasName='CardGroup'>
           <div className='card'>
-            <h5>lorem ipsum</h5>
-            <p>Les rêves sont les fenêtres de notre esprit, des voyages nocturnes à travers des paysages imaginaires et des scénarios inexplorés. Ils transcendent les limites de la réalité et nous transportent dans un royaume où tout devient possible.</p>   
+            <h5>Décoder les rêves</h5>
+            <p>Grâce à une technologie de pointe en matière de traitement du langage naturel, 
+              notre intelligence artificielle est capable d'analyser les rêves des utilisateurs.</p>   
           </div>
           <div className='card'>
-            <h5>lorem ipsum</h5>
-            <p>Les rêves sont les fenêtres de notre esprit, des voyages nocturnes à travers des paysages imaginaires et des scénarios inexplorés. Ils transcendent les limites de la réalité et nous transportent dans un royaume où tout devient possible.</p>   
+            <h5>Prédire l'avenir</h5>
+            <p>En prédisant l'avenir à partir des rêves, notre intelligence artificielle aide les 
+              utilisateurs à mieux comprendre les signes de l'univers et à prendre des décisions 
+              plus éclairées dans leur vie quotidienne.</p>   
           </div>
           </div>
 
