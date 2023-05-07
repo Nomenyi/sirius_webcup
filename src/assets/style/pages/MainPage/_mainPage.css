@@ -2,6 +2,7 @@
     color: #fff;
     font-family: var(--DefaultFont);
     width: 100%;
+    background-image: url('../../../image/img/chuBackground.png');
 }
 
 /* NAVBAR */

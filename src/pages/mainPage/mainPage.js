@@ -10,6 +10,8 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 // Components import
 import Mainpage_navbar from './components/mainpage_navbar'
 import Nightmare_popup from '../../components/nightmare_popup'
+import Contact from '../nightmarePage/components/contact'
+import Footer from '../nightmarePage/components/footer'
 
 
 // Asset import
@@ -50,7 +52,7 @@ function mainPage() {
   return (
     <div className='mainPage_container'>
       <Nightmare_popup/>
-      <Parallax pages={5}>
+      <Parallax pages={4}>
         <ParallaxLayer
         offset={0}
         // sticky={{start: 0, end: 20}}
@@ -111,6 +113,14 @@ function mainPage() {
           </div>
           </div>
         </ParallaxLayer> 
+
+        <ParallaxLayer  offset={2}>
+          <Contact/>
+        </ParallaxLayer>
+
+        <ParallaxLayer  offset={3}>
+          <Footer/>
+        </ParallaxLayer>
       </Parallax>
 
     </div>

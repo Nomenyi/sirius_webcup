@@ -1,0 +1,502 @@
+.main_content{
+    /* background-color: green; */
+    background-image: url('../../../image/img/chuBackground.png');
+    background-size: cover;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+/* HEADBAR */
+.headbar_content{
+    /* background-color: red; */
+    font-size: 12px;
+    color: var(--DarkFontColor);
+    /* position: sticky; */
+}
+
+.headbar_content .top_headbar{
+    padding: 7px 0px;
+    background-color: var(--greyColor);
+}
+
+.top_headbar_content, .bottom_headbar_content, .banner_content, .service_content, .about_content, .contact_content, .foot_content{
+    max-width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.top_headbar_content{
+    justify-content: flex-end;
+}
+
+.top_headbar_content span{
+    margin-right: 20px;
+}
+
+.soscall{
+    cursor: pointer;
+    background-color: var(--succescolor);
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.bottom_headbar_content{
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+
+.bottom_headbar_content .leftside, .bottom_headbar_content .rightside{
+    display: flex;
+    align-items: center;
+}
+
+.bottom_headbar_content .rightside{
+    border-radius: 20px;
+    background-image: url('../../../image/gif/nightmare.gif');
+    background-size: cover;
+}
+
+.bottom_headbar_content .leftside nav{
+    padding-left: 20px;
+}
+
+.bottom_headbar_content .leftside nav .menu_btn{
+    padding: 5px 18px;
+    transition: 0.3s ease;
+    margin: 0px 2px;
+    font-weight: 500;
+}
+
+.bottom_headbar_content .leftside nav .menu_btn:hover, .bottom_headbar_content .leftside nav .menu_btn.active{
+    color: var(--PrimaryColor);
+    background-color: var(--whiteColorTransparent);
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.09);
+}
+
+.bottom_headbar_content .rightside .signUp_Btn, .bottom_headbar_content .rightside .signIn_Btn {
+    padding: 5px 15px;
+    transition: 0.3s ease;
+    margin: 0px 5px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.bottom_headbar_content .rightside .signUp_Btn, .bottom_headbar_content .rightside .signIn_Btn:hover {
+    border: 1px solid var(--PrimaryColor);
+    color: var(--PrimaryColor);
+    padding: 5px 20px;
+    background-color: transparent;
+}
+
+.bottom_headbar_content .rightside .signIn_Btn, .bottom_headbar_content .rightside .signUp_Btn:hover{
+    background-color: var(--PrimaryColor);
+    border: 1px solid var(--PrimaryColor);
+    color: #fff;
+}
+
+
+/* BANNER */
+.banner_content{
+    margin: 50px auto 40px auto;
+    background-color: transparent;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+
+.banner_content .leftside, .banner_content .rightside{
+    width: 50%;
+    color: var(--whiteColor);
+}
+
+.banner_content .rightside img{
+    position: absolute;
+    top: 100px;
+}
+
+.banner_content .leftside h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.banner_content .leftside h1 span{
+    background-color: var(--color1);
+    padding: 0px 10px;
+}
+
+.banner_content .leftside small{
+    opacity: 0.7;
+    font-weight: 300;
+    color: var(--DarkFontColor);
+}
+
+.doctor_search{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.banner_content .leftside .icon_medical{
+    width: 20%
+}
+
+.banner_content .leftside .search_input{
+    border-radius: 9px;
+    background-color: #fff;
+    width: 65%;
+    display: flex;
+    align-items: center
+}
+
+.banner_content .leftside .doctor_search img{
+    padding: 4px;
+    width: 14%
+}
+
+.banner_content .leftside .mainsearch{
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 12px;
+    width: 100%;
+    border-radius: 0px 9px 9px 0px;
+    color: #01003A;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.banner_content .leftside .mainsearch-btn{
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--succescolor);
+    border: 1px solid var(--succescolor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner_content .leftside .mainsearch-btn:hover{
+    padding: 11px 22px;
+    background-color: var(--PrimaryColor);
+    border: 1px solid #fff;
+}
+
+.banner_content .leftside .bottom_message{
+    margin-top: 20px;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--DarkFontColor);
+}
+
+
+.banner_content .leftside .scrolldown{
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+/* SERVICE */
+.service_container{
+    margin: 70px 0px;
+}
+
+.service_content{
+    display: flex;
+    justify-content: space-between;
+    color: var(--DarkFontColor);
+}
+
+.service_content .card-service{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service_content .card-service.interactive{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_content .card-service.active, .service_content .card-service.interactive:hover{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid var(--fillInput);
+    background-color: var(--fillInput);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.13);
+}
+
+.service_content .card-service h2{
+    color: var(--DarkFontColor);
+}
+
+.service_content .card-service .text{
+    /* text-align: justify; */
+    margin-bottom: 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.service_content .card-service .services-btn{
+    margin-top: 10px;
+    background-color: var(--PrimaryColor);
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid var(--PrimaryColor);
+    transition: 0.3s;
+}
+
+.service_content .card-service .services-btn:hover{
+    background-color: transparent;
+    color: var(--PrimaryColor);
+    border: 1px solid var(--PrimaryColor);
+}
+
+.service-title{
+    font-weight: 700;
+    color: var(--DarkFontColor);
+}
+
+.service-title{
+    font-weight: 700;
+    color: var(--DarkFontColor);
+}
+
+.service-text{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* ABOUT */
+.about_container{
+    background-color: var(--fillInput);
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.08);
+}
+
+.about_content{
+    padding: 10px 0px;
+    color: var(--DarkFontColor);
+}
+
+.about_content .leftside, .about_content .rightside{
+    width: 50%;
+}
+
+.about_content .rightside{
+    text-align: center;
+}
+
+.about_content .leftside{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_content .leftside{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_content .leftside small{
+    opacity: 0.8;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.about-btn{
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: var(--color1);
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid var(--color1);
+    transition: 0.4s ease;
+}
+
+.about-btn:hover{
+    border: 1px solid var(--color1);
+    width: 52%;
+    background-color: transparent;
+    color: var(--color1);
+}
+
+.contact_content{
+    padding: 30px 0px;
+}
+
+/* CONTACT */
+.contact_container{
+    margin: 80px 0px;
+    color: var(--DarkFontColor);
+}
+
+.contact_content .rightside, .contact_content .leftside{
+    width: 50%;
+}
+
+.contact_content .rightside{
+    padding: 40px  50px;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.contact_content .rightside .input-section{
+    margin-top: 20px;
+    background-color: var(--fillInput);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+}
+
+.contact_content .rightside .input-section:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact_content .rightside .input-section input{
+    padding: 15px 10px;
+    width: 90%;
+    outline: none;
+    border: none;
+    color: var(--DarkFontColor);
+    font-family: var(--DefaultFont);
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact_content .rightside .input-section textarea{
+    padding: 20px 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: var(--DarkFontColor);
+    font-family: var(--DefaultFont);
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.contact_content .rightside .input-section img:first-child
+{
+    padding: 7px;
+    width: 10%;
+    margin-left: 7px;
+    text-align: center;
+}
+
+.contact-btn{
+    padding: 15px 20px;
+    background-color: var(--PrimaryColor);
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    animation: 4s rainbow ease infinite;
+}
+
+/* FOOTER */
+.foot_container{
+    background-color: var(--fillInput);
+    color: #fff;
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.08);
+}
+
+.foot_content{
+    padding: 23px 0px;
+    display: flex;
+    /* border-bottom: 20px solid rgba(0, 0, 0, 0.1); */
+}
+
+
+.foot_content .leftside{
+    padding: 25px 0px;
+    width: 50%;
+}
+
+.foot_content .leftside p{
+    font-size: 11px;
+    opacity: 0.75;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.jurid_message{
+    font-weight: 500;
+    opacity: .8;
+}
+
+/* SCROLL TO TOP */
+.ScroolTop {
+    z-index: 500;
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--whiteColor);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .2);
+    position: fixed;
+    bottom: 0px;
+    margin: 10px;
+    right: 30px;
+    opacity: 0;
+    border-radius: 500px;
+    transition: all .6s;
+  }
+  
+  .scrooltop_Container {
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .ScroolTop.active {
+    opacity: 1;
+    pointer-events: auto;
+    bottom: 20px;
+    right: 30px;
+    transition: .4s;
+  }
+  
+  .ScroolTop a img {
+    cursor: pointer;
+  }
+  
+  
