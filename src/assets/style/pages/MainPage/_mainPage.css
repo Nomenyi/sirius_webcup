@@ -39,8 +39,8 @@
   
   .logo {
     font-size: 1.5em;
-    height: 60px;
-    letter-spacing: 1px;
+    /* height: 60px; */
+    margin-top: -10px;
     text-transform: uppercase;
   } @media(max-width: 768px) {
       .logo {
@@ -363,7 +363,7 @@
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .banner_item .left, .banner_item .right{

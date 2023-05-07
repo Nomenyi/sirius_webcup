@@ -2,6 +2,9 @@ import { refresh } from 'aos'
 import React, { useRef as ref, useState as state} from 'react'
 import { Link } from 'react-router-dom'
 
+// Asset import
+import logo from '../../../assets/image/logo/IIR_Logo/IIR_Logo_Large_transparent.png'
+
 function mainpage_navbar() {
     const [isMenuOpen, setIsMenuOpen] = state(false);
 
@@ -14,8 +17,7 @@ function mainpage_navbar() {
         <nav id="navbar" className="navbar">
             <div className="nav-wrapper">
                 <div className="logo">
-
-                <a href="#home">Logo</a>
+                    <img src={logo} alt='IIR Logo' width={'190px'}/>
                 </div>
 
                 <ul id="menu">
