@@ -27,7 +27,7 @@ function mainpage_navbar() {
                 </ul>
 
                 <div>
-                    <Link to={'/onirix'} className='Onirix-Btn'>En savoir plus sur Onirix</Link>
+                    <Link to={'/onirix/bot'} className='Onirix-Btn'>En savoir plus sur Onirix</Link>
                 </div>
 
                 

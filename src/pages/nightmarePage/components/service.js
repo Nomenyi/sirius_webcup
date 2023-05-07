@@ -13,10 +13,10 @@ function service() {
             <div className='card-service'>
                 <h2>La solution que nous offrons</h2>
                 <p className='text'>
-                    Excepteur nostrud incididunt aute fugiat enim deserunt dolor cillum ea. Adipisicing et enim nostrud laborum ex pariatur magna. 
+                    Découvrez l'art de déchiffrer les messages cachés de vos rêves avec nos experts en décodage de rêves.
                 </p>
                 <p className='text'>
-                    Excepteur nostrud incididunt aute fugiat enim deserunt dolor cillum ea. 
+                    Prenez soin de votre bien-être mental et physique en pratiquant régulièrement des activités de relaxation, comme la méditation ou le yoga.
                 </p>
                 <Link to={"/onirix"} className={"services-btn"} type={"submit"}>Testez Orinix</Link>
             </div>
@@ -28,8 +28,8 @@ function service() {
             </div>
             <div className='card-service interactive'>
             <img src={service2} alt='EMIT logo' className='Illustration_Login' width={'140px'}/>
-                <span className='service-title'>Solution 2</span>
-                <small className='service-text'>Dolore dolore culpa tempor labore mollit mollit incididunt id ut laboris. Nulla ipsum tempor est officia incididunt deserunt incididunt dolore velit dolore cupidatat fugiat aute.r.</small>
+                <span className='service-title'>Ayez confiance</span>
+                <small className='service-text'>Faites face à vos peurs dans la vie réelle en pratiquant des activités qui vous mettent hors de votre zone de confort. Plus vous serez confiant dans la vie réelle, moins vos cauchemars auront d'emprise sur vous.</small>
             </div>
             <div className='card-service interactive'>
             <img src={service3} alt='EMIT logo' className='Illustration_Login' width={'140px'}/>

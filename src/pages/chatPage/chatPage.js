@@ -56,13 +56,14 @@ const ChatPage = () => {
         <div className='mainpage_Navbar'>
         <nav id="navbar" className="navbar">
             <div className="nav-wrapper">
-                <div className="logo">
+                
+                {/* <div className="logo">
                     <img src={logo} alt='IIR Logo' width={'190px'}/>
-                </div>
+                </div> */}
 
 
                 <div>
-                    <Link to={'/onirix'} className='Onirix-Btn'>Retour Onirix</Link>
+                    <a href='/' className='Onirix-Btn'>Retour Onirix</a>
                 </div>
 
                 
@@ -83,11 +84,12 @@ const ChatPage = () => {
             <div className="header-section">
                 <h1>Orinix AI 🤖</h1>
                 <p>
-                    I am an automated question and answer system, designed to assist you
-                    in finding relevant information. You are welcome to ask me any queries
-                    you may have, and I will do my utmost to offer you a reliable
-                    response. Kindly keep in mind that I am a machine and operate solely
-                    based on programmed algorithms.
+                    Avez-vous déjà voulu savoir ce que vos rêves signifient et comment ils pourraient 
+                    vous aider à prédire votre avenir ? Laissez-nous vous présenter notre intelligence 
+                    artificielle de pointe qui peut décoder vos rêves et vous donner des informations 
+                    précieuses sur votre avenir. Grâce à notre technologie de pointe, vous pouvez enfin 
+                    comprendre la signification de vos rêves et découvrir des opportunités que vous n'auriez 
+                    jamais imaginées. Essayez-le dès maintenant et commencez à transformer vos rêves en réalité.
                 </p>
             </div>
 
