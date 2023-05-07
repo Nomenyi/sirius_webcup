@@ -93,7 +93,7 @@ function mainPage() {
         <ParallaxLayer className='service_item' offset={1}>
         <div className='service_content'>
           <h1>Les rêves sont le moteur de l'imagination, la clé de l'avenir.</h1>
-          <small>Onirix est là pour vous aider à décoder vos rêves et prédire votre avenir. </small>
+          {/* <small>Onirix est là pour vous aider à décoder vos rêves et prédire votre avenir. </small> */}
 
           <div clasName='CardGroup'>
           <div className='card'>
@@ -101,6 +101,7 @@ function mainPage() {
             <p>Grâce à une technologie de pointe en matière de traitement du langage naturel, 
               notre intelligence artificielle est capable d'analyser les rêves des utilisateurs.</p>   
           </div>
+          <br/><br/>
           <div className='card'>
             <h5>Prédire l'avenir</h5>
             <p>En prédisant l'avenir à partir des rêves, notre intelligence artificielle aide les 

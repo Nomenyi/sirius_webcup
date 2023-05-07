@@ -23,8 +23,8 @@ function service() {
 
             <div className='card-service active'>
                 <img src={service1} alt='EMIT logo' className='Illustration_Login' width={'140px'}/>
-                <span className='service-title'>Solution 1</span>
-                <small className='service-text'>Dolore dolore culpa tempor labore mollit mollit incididunt id ut laboris. Nulla ipsum tempor est officia incididunt deserunt incididunt dolore velit dolore cupidatat fugiat aute.r.</small>
+                <span className='service-title'>Analyse</span>
+                <small className='service-text'>Tout d'abord, prenez le temps d'analyser vos cauchemars. Quelles sont les situations qui vous font peur ? Essayez de trouver des motifs récurrents et notez-les.</small>
             </div>
             <div className='card-service interactive'>
             <img src={service2} alt='EMIT logo' className='Illustration_Login' width={'140px'}/>
@@ -33,8 +33,8 @@ function service() {
             </div>
             <div className='card-service interactive'>
             <img src={service3} alt='EMIT logo' className='Illustration_Login' width={'140px'}/>
-                <span className='service-title'>Solution 3</span>
-                <small className='service-text'>Dolore dolore culpa tempor labore mollit mollit incididunt id ut laboris. Nulla ipsum tempor est officia incididunt deserunt incididunt dolore velit dolore cupidatat fugiat aute.r.</small>
+                <span className='service-title'>Voir nos experts</span>
+                <small className='service-text'>Visitez notre institut pour explorer les profondeurs de votre subconscient et trouver des réponses cachées. Laissez-nous vous guider vers une meilleure compréhension de vous-même.</small>
             </div>
         </div>
     </div>
