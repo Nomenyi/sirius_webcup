@@ -49,9 +49,9 @@ const ChatPage = () => {
 
 
     return (
-        <div>
+        <div className='chat_conatiner'>
             <div className="header-section">
-                <h1>ChatGPT CLONE 🤖</h1>
+                <h1>Orinix AI 🤖</h1>
                 <p>
                     I am an automated question and answer system, designed to assist you
                     in finding relevant information. You are welcome to ask me any queries

@@ -16,6 +16,7 @@ const AnswerSection = ({storedValues}) => {
                             <div 
                                 className="copy-icon"
                                 onClick={() => copyText(value.answer)}>
+                                    dsf
                                 <i className="fa-solid fa-copy"></i>
                             </div>
                         </div>
