@@ -1,6 +1,8 @@
 import React, { useEffect as effetc } from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import { Link } from 'react-router-dom'
 
+import logo from '../../assets/image/logo/IIR_Logo/IIR_Logo_Large_transparent.png'
 // AOS import
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -47,9 +49,35 @@ function onirixPage() {
     <div className='onirix_container'>
       
 
-      <Parallax pages={5}>
+      <Parallax pages={2}>
         <ParallaxLayer offset={0}>
-          <Onirix_navbar/>
+        <div className='mainpage_Navbar'>
+        <nav id="navbar" className="navbar">
+            <div className="nav-wrapper">
+                <div className="logo">
+                    <img src={logo} alt='IIR Logo' width={'190px'}/>
+                </div>
+
+
+                <div>
+                    <Link to={'/onirix/bot'} className='Onirix-Btn'>Commencer</Link>
+                </div>
+
+                
+                
+            </div>
+        </nav>
+
+
+            {/* <div className="overlay-menu">
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div> */}
+    </div>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -58,22 +86,16 @@ function onirixPage() {
         speed={0.01}
         factor={1}
         >
-          <h1 data-aos="fade-up">TEST1</h1>
+          <h1 data-aos="fade-up">Testez directement notre AI:Onirix... Raconte lui votre rêves</h1>
+          <div>
+                    <Link to={'/onirix/bot'} className='Onirix-Btn'>Commencer</Link>
+                </div>
           <div style={containerStyle}>
             <video style={videoStyle} autoPlay loop muted>
               <source src={videoSource} type="video/mp4" />
             </video>
           </div>
         </ParallaxLayer>
-
-        <ParallaxLayer
-          offset={1}
-          className='IntroBanner'
-        >
-
-          <h1 data-aos="fade-down">TEST2</h1>
-          <div data-aos="zoom-in">Test2</div>
-        </ParallaxLayer> 
       </Parallax>
   </div>
   )

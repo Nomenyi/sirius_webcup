@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Configuration, OpenAIApi } from 'openai';
+import { Link } from 'react-router-dom'
 
+// Asset import
+import logo from '../../assets/image/logo/IIR_Logo/IIR_Logo_Large_transparent.png'
 import FormSection from './Form';
 import AnswerSection from './Answer';
 
@@ -57,13 +60,6 @@ const ChatPage = () => {
                     <img src={logo} alt='IIR Logo' width={'190px'}/>
                 </div>
 
-                <ul id="menu">
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">à propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    
-                </ul>
 
                 <div>
                     <Link to={'/onirix'} className='Onirix-Btn'>Retour Onirix</Link>
