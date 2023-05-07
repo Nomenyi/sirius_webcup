@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksirius_webcup=self.webpackChunksirius_webcup||[]).push([[57],{7057:function(u,e,i){i.r(e);i(2791);var s=i(184);e.default=function(){return(0,s.jsx)("div",{children:"onirixPage"})}}}]);
+//# sourceMappingURL=57.f9effe7c.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksirius_webcup=self.webpackChunksirius_webcup||[]).push([[718],{5718:function(u,e,i){i.r(e);i(2791);var s=i(184);e.default=function(){return(0,s.jsx)("div",{children:"mainPage"})}}}]);
+//# sourceMappingURL=718.a5f3c044.chunk.js.map

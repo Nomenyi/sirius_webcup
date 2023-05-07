@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e902b478.css",
+    "main.js": "/static/js/main.df0625be.js",
+    "static/js/497.bc4c103b.chunk.js": "/static/js/497.bc4c103b.chunk.js",
+    "static/js/718.a5f3c044.chunk.js": "/static/js/718.a5f3c044.chunk.js",
+    "static/js/57.f9effe7c.chunk.js": "/static/js/57.f9effe7c.chunk.js",
+    "static/js/205.e48a6fc2.chunk.js": "/static/js/205.e48a6fc2.chunk.js",
+    "static/js/787.92c04324.chunk.js": "/static/js/787.92c04324.chunk.js",
+    "static/js/292.34526547.chunk.js": "/static/js/292.34526547.chunk.js",
+    "static/media/pexels-pachon-in-motion-15196839-2560x1440-30fps.mp4": "/static/media/pexels-pachon-in-motion-15196839-2560x1440-30fps.509442d60972380810d6.mp4",
+    "index.html": "/index.html",
+    "main.e902b478.css.map": "/static/css/main.e902b478.css.map",
+    "main.df0625be.js.map": "/static/js/main.df0625be.js.map",
+    "497.bc4c103b.chunk.js.map": "/static/js/497.bc4c103b.chunk.js.map",
+    "718.a5f3c044.chunk.js.map": "/static/js/718.a5f3c044.chunk.js.map",
+    "57.f9effe7c.chunk.js.map": "/static/js/57.f9effe7c.chunk.js.map",
+    "205.e48a6fc2.chunk.js.map": "/static/js/205.e48a6fc2.chunk.js.map",
+    "787.92c04324.chunk.js.map": "/static/js/787.92c04324.chunk.js.map",
+    "292.34526547.chunk.js.map": "/static/js/292.34526547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e902b478.css",
+    "static/js/main.df0625be.js"
+  ]
+}
