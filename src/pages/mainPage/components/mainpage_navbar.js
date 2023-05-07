@@ -21,15 +21,13 @@ function mainpage_navbar() {
                 </div>
 
                 <ul id="menu">
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">à propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/nigntmare">Vous faites des cauchemars?</a></li>
                     
                 </ul>
 
                 <div>
-                    <Link to={'/onirix'} className='Onirix-Btn'>Testez Onirix</Link>
+                    <Link to={'/onirix'} className='Onirix-Btn'>En savoir plus sur Onirix</Link>
                 </div>
 
                 

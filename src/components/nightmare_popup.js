@@ -6,12 +6,6 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 function Nightmare_popup() {
-  const [showPopup, setShowPopup] = useState(true);
-
-  const handleClose = () => {
-    setShowPopup(false);
-  };
-
   const styles = {
     closeButton: {
       position: 'absolute',
@@ -22,14 +16,25 @@ function Nightmare_popup() {
       borderRadius: '50%',
       backgroundColor: '#fff',
       color: '#000',
-      fontSize: '18px',
+      fontSize: '14px',
       fontWeight: 'bold',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      cursor: 'pointer'
-    }
+      cursor: 'pointer',
+      opacity: '0.4',
+      transition: 'opacity 0.2s ease-in-out',
+    },
+    closeButtonHover: {
+      opacity: '1',
+    },
   }
+
+  const [showPopup, setShowPopup] = useState(true);
+
+  const handleClose = () => {
+    setShowPopup(false);
+  };
 
   return (
     <>

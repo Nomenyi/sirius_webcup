@@ -11,15 +11,18 @@ function banner() {
         <div className='banner_content'>
             <div className='leftside'>
                 <h1>
-                    Affrontez vos peurs dans vos cauchemars. <span>docteurs</span>
+                    Comment surmonter vos cauchemars et devenir votre propre héros ? 
+                    {/* <span>docteurs</span> */}
                 </h1>
                 <small>
-                    Eiusmod cillum ut anim in reprehenderit esse ex aliquip sit officia. Esse deserunt nisi quis qui amet irure culpa aute. Consequat labore Lorem aliquip deserunt ut. Reprehenderit tempor ad aute anim minim laboris irure qui commodo pariatur.
+                    Les cauchemars sont une expérience terrifiante qui peut causer des troubles du sommeil et de
+                     l'anxiété. Mais ne vous inquiétez pas, 
+                    il y a des moyens de surmonter vos cauchemars et devenir le héros de votre propre histoire.
                 </small>
 
 
                 <p className='bottom_message'>
-                    Eiusmod cillum ut anim in reprehenderit esse ex aliquip sit officia. Esse deserunt nisi quis qui amet irure culpa aute.
+                    Les cauchemars peuvent sembler insurmontables, mais avec un peu de pratique, vous pouvez devenir le héros de votre propre histoire et surmonter vos peurs.
                 </p>
                 
             </div>

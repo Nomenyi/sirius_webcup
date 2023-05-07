@@ -8,7 +8,11 @@ function footer() {
         <div className='foot_content'>
             <div className='leftside'>
               <img src={logo} alt="user-icon" width='200px' />
-              <p>Officia magna excepteur duis culpa ea laboris est officia duis elit. Enim aliqua exercitation in ex non adipisicing dolor anim ea duis. Proident aute proident magna incididunt consectetur. Aute id nostrud qui irure. Ipsum ipsum ex ad officia exercitation veniam Lorem aliquip.</p>
+              <p>Nos méthodes innovantes de recherche nous permettent d'analyser en détail 
+                les rêves de nos participants et d'extraire des données précieuses sur les événements futurs.
+                 Grâce à notre expertise en matière d'interprétation des rêves, nous pouvons vous aider à mieux 
+                 comprendre les messages de votre subconscient et à prendre des décisions plus éclairées pour votre
+                  avenir.</p>
               <small className='jurid_message'>Tous droit reservés à l'Institut International des rêves</small>
             </div>
 
