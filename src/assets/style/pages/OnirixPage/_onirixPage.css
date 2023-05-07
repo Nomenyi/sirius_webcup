@@ -1,0 +1,29 @@
+.onirix_container{
+    color: #fff;
+    z-index: 1;
+    font-family: var(--DefaultFont);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.onirix_navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.onirix_item{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+/* BANNER */
+.onirix_container .IntroBanner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

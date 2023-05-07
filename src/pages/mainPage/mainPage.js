@@ -9,14 +9,20 @@ import Mainpage_navbar from './components/mainpage_navbar'
 // import 
 
 function mainPage() {
+  
+
   return (
     <div className='mainPage_container'>
-      
       <Parallax pages={5}>
-        <Mainpage_navbar/>
-
         <ParallaxLayer
         offset={0}
+        sticky={{start: 0, end: 20}}
+        >
+          <Mainpage_navbar/>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+        offset={0.2}
         speed={1}
         >
           <h1>TEST1</h1>

@@ -12,7 +12,7 @@ import Loader from './pages/loaderPage/loaderPage';
 const NotFoundPage = lazy(() => import('./pages/notFoundPage/notFoundPage'))
 const MainPage = lazy(() => import('./pages/mainPage/mainPage'))
 const OrinixPage = lazy(() => import('./pages/onirixPage/onirixPage'))
-const OrinixBotPage = lazy(() => import('./pages/chatPage/ChatPage'))
+const OrinixBotPage = lazy(() => import('./pages/chatPage/chatPage'))
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Suspense fallback={<Loader/>}>
         <Routes>
           {/* Authentification pages route */}
-          <Route path='/' element={<Loader />}/>
+          <Route path='/' element={<MainPage />}/>
           {/* main pages route */}
           {/* Page route */}
           <Route path='/' element={<MainPage />}/>

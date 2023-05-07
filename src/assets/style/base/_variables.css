@@ -5,8 +5,8 @@
     /* --------principal color --------*/
     --PrimaryColor: #ED156D;
     --DisabledColor: #080808;
-    --whiteColor: #1a1a51;
-    --fillInput: #292962;
+    --whiteColor: #0f0f2e;
+    --fillInput: #08081a;
 
     /* --------Transparent color-------- */
     --whiteColorTransparent: rgba(0, 0, 0, 0.5);
@@ -33,7 +33,7 @@
     --BackgroundColor: #020211;
 
     /* linear color */
-    --linearColor1: linear-gradient(to right, #43B3FF 0%, #004487 100%);
+    --linearColor1: linear-gradient(to right, #ED156D 0%, #004487 100%);
     --linearColor2: linear-gradient(to right, #095a83 10%, #434C97 100%);
 
     /* --------supplement color-------- */

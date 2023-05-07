@@ -15,17 +15,19 @@
 }
 
 .NotFound_content .NotFound_MiddleSection{
-    text-align: center;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .NotFound_content .NotFound_MiddleSection h1{
     font-size: 23vw;  
-    margin-top: -50px; 
+    margin-top: -100px; 
 }
 
 .NotFound_content .NotFound_MiddleSection p{
     margin-top: -80px;
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 .NotFound_content .NotFound_MiddleSection .back_btn{
@@ -33,16 +35,16 @@
     font-size: 13px;
     transition: .3s ease;
     margin-top: 300px;
-    background-color: #ED156D;
+    margin-left: 40px;
+    /* background-color: #ED156D; */
     background: linear-gradient(to right, #ED156D, #941bd1);
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
-    border-radius: 20px;
-    transform: scale(1);
+    border-radius: 10px;
 }
 
 .NotFound_content .NotFound_MiddleSection .back_btn:hover{
-    transform: scale(1.1);
+    transform: translateY(10px);
     padding: 15px 30px;
 }
 
@@ -60,7 +62,7 @@
     padding: 7px 10px;
 }
 .NotFound_Header .Orinix_btn:hover{
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     background-color: rgba(255, 255, 255, 0.02);
 }
 
