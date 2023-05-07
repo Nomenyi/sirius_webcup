@@ -20,8 +20,6 @@ const FormSection = ({ generateResponse }) => {
 
     if (!browserSupportsSpeechRecognition) {
         return <span>Browser doesn't support speech recognition.</span>;
-    } else {
-        SpeechRecognition.startListening({ continuous: true })
     }
 
     const handleStart = () => {
