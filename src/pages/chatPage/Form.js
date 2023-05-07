@@ -46,16 +46,16 @@ const FormSection = ({ generateResponse }) => {
             <p>Microphone: {listening ? 'on' : 'off'}</p>
 
             {!isStarted && (
-                <button onClick={handleStart}>Start</button>
+                <button className="mic" onClick={handleStart}>Alummer micro</button>
             )}
             {isStarted && (
-                <button onClick={handleStop}>Stop</button>
+                <button className="mic"onClick={handleStop}>Eteindre micro</button>
             )}
 
             <button 
                 className="btn"
                 onClick={() => generateResponse(newQuestion, setNewQuestion)}>
-                Generate Response 🤖
+                Genere une reponse🤖
             </button>
         </div>
     )
