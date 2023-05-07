@@ -7,7 +7,9 @@
 @import 'pages/LoaderPage/_loader.css';
 @import 'pages/NotFoundPage/_notFoundPage.css';
 
-
+@import 'pages/MainPage/_mainPage.css';
+@import 'pages/OnirixPage/_onirixPage.css';
 
 /* Components */
+@import 'components/_NightmarePopup.css';
 

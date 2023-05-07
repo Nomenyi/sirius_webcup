@@ -18,7 +18,7 @@ body{
 /*windown scroll style*/
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255);
     border-radius: 20px; 
 }
 
@@ -28,13 +28,13 @@ body{
 
 *::-webkit-scrollbar {
     padding: 20px 0px;
-    background: var(--fillInput);
+    background: rgba(255, 255, 255, .2);
     width: 6px;
     border-radius: 20px;
 }
 *::-webkit-scrollbar:hover,
 *::-webkit-scrollbar:hover {
-    background: var(--fillInput);
+    background: rgba(255, 255, 255, .1);
 }
 
 a{

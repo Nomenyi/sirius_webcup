@@ -20,7 +20,7 @@ function App() {
       <Suspense fallback={<Loader/>}>
         <Routes>
           {/* Authentification pages route */}
-          <Route path='/' element={<Loader />}/>
+          <Route path='/' element={<MainPage />}/>
           {/* main pages route */}
           {/* Page route */}
           <Route path='/' element={<MainPage />}/>

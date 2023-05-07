@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect as effect} from 'react'
 import { Link } from 'react-router-dom'
 
+// AOS import
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 // Assets import
-import videoSource from '../../assets/video/pexels-pachon-in-motion-15196839-2560x1440-30fps.mp4';
+import videoSource from '../../assets/video/pinkmotion.mp4';
 
 // Components import
 import NotFound_head from './components/notFound_head';
@@ -31,6 +35,11 @@ function notFoundPage() {
     zIndex: -1,
     overflow: 'hidden',
   };
+
+    effect(()=>{
+    Aos.init({duration: 2000})
+  }, []);
+  
   
   return (
     <div className='NotFound_container'>
@@ -38,9 +47,18 @@ function notFoundPage() {
       <div className='NotFound_content'>
         <NotFound_head/>
         <div className='NotFound_MiddleSection'>
-          <h1>404</h1>
-          <p>Oops ! Il semblerait que vous vous soyez égaré(e). La page que vous recherchez est introuvable</p>
-          <Link to={'/'} className='back_btn'>retour à l'accueil</Link> 
+          <h1
+          data-aos="fade-up"
+          data-aos-duration="1000">404</h1>
+          <p 
+            data-aos="fade-up"
+            data-aos-duration="2000">Oops ! Il semblerait que vous vous soyez égaré(e). La page que vous recherchez est introuvable</p>
+          <Link
+            to={'/'}
+            className='back_btn'
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            >retour à l'accueil</Link> 
         </div>
         <NotFound_foot/>
       </div>
@@ -50,9 +68,6 @@ function notFoundPage() {
       <video style={videoStyle} autoPlay loop muted>
         <source src={videoSource} type="video/mp4" />
       </video>
-      <div className='NotFound_content'>
-        
-      </div>
     </div>
     </div>
   )
